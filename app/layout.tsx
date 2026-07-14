@@ -25,9 +25,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sultan Musollah – Prayer Hall",
+  title: "Sultan Musalla – Prayer Hall",
   description:
-    "Sultan Musollah is a place of prayer and community. Join us for daily salah, Jumu'ah, and community programs.",
+    "Sultan Musalla is a place of prayer and community. Join us for daily salah, Jumu'ah, and community programs.",
 };
 
 export default function RootLayout({

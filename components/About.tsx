@@ -15,7 +15,7 @@ export default function About() {
             <h2>A Small Hall, A Wide-Open Door</h2>
           </div>
           <p>
-            Sultan Musollah has served our neighbourhood as a place for the five
+            Sultan Musalla has served our neighbourhood as a place for the five
             daily prayers, Jumu&apos;ah, and quiet reflection. We are a modest hall
             by design &mdash; our aim is to make salah easy to reach, not to be
             the biggest building on the block.

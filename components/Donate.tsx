@@ -4,7 +4,7 @@ export default function Donate() {
       <div className="wrap">
         <h3>Support the Musollah</h3>
         <p>
-          Sultan Musollah runs on community support. Your contribution helps
+          Sultan Musalla runs on community support. Your contribution helps
           keep the lights on, the carpets clean, and the doors open.
         </p>
         <a className="btn" href="#contact">

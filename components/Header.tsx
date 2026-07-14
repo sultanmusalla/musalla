@@ -25,7 +25,7 @@ export default function Header() {
           <a href="www.sultan-musallah.org">
             <Image
               src="/Logo.png"
-              alt="Sultan Musollah logo"
+              alt="Sultan Musalla logo"
               width={120}
               height={56}
               style={{ objectFit: "contain" }}
@@ -38,7 +38,7 @@ export default function Header() {
           {/* <a href="#events" onClick={() => setOpen(false)}>Events</a> */}
           <a href="#locationContact" onClick={() => setOpen(false)}>Location & Contact</a>
           {/* <a href="#contact" onClick={() => setOpen(false)}>Contact</a> */}
-          <a 
+          {/* <a 
             href="https://chat.whatsapp.com/D7T6lnH0SrXEyYhbffr16t?s=cl&p=i&ilr=0" 
             target="_blank" 
             rel="noopener noreferrer" 
@@ -46,7 +46,7 @@ export default function Header() {
             style={{ alignSelf: "center", marginLeft: "8px" }}
           >
             Join Whatsapp Group
-          </a>
+          </a> */}
         </div>
         <button
           className="navtoggle"

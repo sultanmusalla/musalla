@@ -98,11 +98,22 @@ export default function Hero() {
     <section className="hero">
       <div className="wrap hero-inner">
         <div className="eyebrow">Ahlan wa Sahlan &mdash; Welcome</div>
-        <h1>Sultan Musollah</h1>
+        <h1>Sultan Musalla</h1>
         <p className="tagline">
           A place of prayer and muslim neighborhood community. Everyone is welcome to join us for
           daily salah, and the programs that keep our neighbourhood connected.
         </p>
+        <div className="herobtn">
+        <a 
+            href="https://chat.whatsapp.com/D7T6lnH0SrXEyYhbffr16t?s=cl&p=i&ilr=0" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn"
+            style={{ alignSelf: "center", marginLeft: "8px" }}
+          >
+            Join Whatsapp Group
+          </a>
+        </div>
 
         <div className="board">
           <div className="label">Next Prayer</div>

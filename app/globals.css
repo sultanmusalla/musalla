@@ -252,6 +252,10 @@ nav {
   font-size: 1.02rem;
 }
 
+.herobtn {
+  margin-top: 22px;
+}
+
 /* countdown board */
 .board {
   margin: 44px auto 0;
@@ -293,11 +297,19 @@ nav {
 .board .subrow {
   display: flex;
   justify-content: center;
+  text-align: center;
   gap: 26px;
   margin-top: 16px;
   font-size: 0.78rem;
   color: rgba(246, 241, 228, 0.6);
   font-family: var(--font-jetbrains), "JetBrains Mono", monospace;
+}
+
+@media (max-width: 640px) {
+  .board .subrow {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 .board .status-msg {
   margin-top: 12px;
@@ -607,7 +619,7 @@ section {
 
 /* ---------- Footer ---------- */
 footer {
-  background: #0a2b29;
+  background: #003540;
   color: rgba(246, 241, 228, 0.55);
   text-align: center;
   padding: 36px 0 28px;
