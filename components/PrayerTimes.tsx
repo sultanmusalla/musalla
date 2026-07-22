@@ -17,6 +17,9 @@ export default function PrayerTimes() {
             style={{ mixBlendMode: 'multiply' }}
           ></iframe>
         </div>
+
+        <div className="val" style={{color: "#000000", fontWeight: 500, fontSize: "0.85rem", marginTop: "4px", textAlign: "center"}}>*For Friday Jumuah prayer, please visit <a href="https://monroemosque.com" style={{color: "#d81b60", fontWeight: 500, fontSize: "0.85rem", fontStyle: "bold", textDecoration: "underline"}} target="_blank" rel="noopener noreferrer">Monroe Mashjid (ICOM)</a>, located at 19683 US-2, Monroe, WA 98272</div>
+
       </div>
     </section>
   );
